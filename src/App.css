@@ -1,0 +1,39 @@
+h1{
+    color: red;
+}
+
+body{
+    text-align: center;
+    background: #2A7B9B;
+background: linear-gradient(9deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+input{
+    padding: 10px;
+    margin: 9px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    margin: 9px;
+}
+
+.box {
+
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); 
+
+  
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5); 
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+
+  
+  border-radius: 16px; 
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15); 
+
+  margin: 100px auto; 
+  padding: 30px;
+  max-width: 400px;
+}
