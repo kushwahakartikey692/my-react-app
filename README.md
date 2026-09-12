@@ -1,16 +1,45 @@
-# React + Vite
+# Simple React Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple calculator built with React and Vite to practice the fundamentals of React development.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a basic calculator that performs common mathematical operations using user-provided inputs. It also includes a separate counter that can be manually set and incremented or decremented.
 
-## React Compiler
+The project was created to practice React concepts such as:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* `useState`
+* Controlled inputs
+* Event handling
+* Updating state
+* Functions and button interactions
+* Basic JSX
+* CSS styling
 
-## Expanding the Oxlint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Remainder
+* Factorial
+* Increment
+* Decrement
+* Reset functionality
+* Editable counter value
+
+## Tech Stack
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+## Interface
+
+The application uses a simple glassmorphism-inspired design with a gradient background and styled interactive buttons.
+
+## Project Goal
+
+The main goal of this project is to understand the basics of building an interactive user interface with React and managing changing data using state.
