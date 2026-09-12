@@ -37,3 +37,46 @@ button{
   padding: 30px;
   max-width: 400px;
 }
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 0;
+  min-width: 120px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+  transition: 
+    transform 0.15s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
